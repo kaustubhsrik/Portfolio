@@ -83,19 +83,12 @@
         </div>
 
         <!-- Photo placeholder — replace the inside of this div with an <img> tag when ready -->
-        <div class="hero__photo-terminal" id="photo-placeholder">
-          <div class="terminal-header">
-            <span class="dot red"></span>
-            <span class="dot yellow"></span>
-            <span class="dot green"></span>
+        <div class="hero__photo-monogram" id="photo-placeholder">
+          <div class="monogram-inner">
+            <span class="monogram-letters">KS</span>
+            <div class="monogram-glow"></div>
           </div>
-          <div class="terminal-body">
-            <p><span class="prompt">~</span> whoami</p>
-            <p class="output">kaustubh</p>
-            <p><span class="prompt">~</span> ./status</p>
-            <p class="output">Building tools that matter.</p>
-            <span class="cursor">_</span>
-          </div>
+        </div>
         </div>
       </div>
     </div>
@@ -106,7 +99,7 @@
   <section id="about">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-label">01 — About</span>
+        <span class="section-label">About</span>
         <h2 class="section-title h1">A bit about me</h2>
         <div class="section-divider"></div>
       </div>
@@ -167,7 +160,7 @@
   <section id="projects">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-label">02 — Projects</span>
+        <span class="section-label">Projects</span>
         <h2 class="section-title h1">Things I've built</h2>
         <div class="section-divider"></div>
       </div>
@@ -177,22 +170,7 @@
         <!-- Textify -->
         <a href="https://github.com/kaustubhsri072/Textify" target="_blank" rel="noopener noreferrer"
           class="project-card reveal" style="text-decoration:none; color:inherit;">
-          <div class="project-card__header">
-            <svg class="project-card__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
-              <polyline points="14 2 14 8 20 8" />
-              <line x1="16" y1="13" x2="8" y2="13" />
-              <line x1="16" y1="17" x2="8" y2="17" />
-              <polyline points="10 9 9 9 8 9" />
-            </svg>
-            <div class="project-card__links">
-              <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor">
-                <path
-                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
-              </svg>
-            </div>
-          </div>
+          <div class="project-card__number">01</div>
           <h3 class="project-card__title">Textify</h3>
           <p class="project-card__description">A JavaScript-based text processing application for transforming,
             formatting, and manipulating text content in real-time.</p>
@@ -205,25 +183,7 @@
         <!-- Movie Explorer -->
         <a href="https://github.com/kaustubhsri072/Movie-Explorer" target="_blank" rel="noopener noreferrer"
           class="project-card reveal" style="text-decoration:none; color:inherit;">
-          <div class="project-card__header">
-            <svg class="project-card__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18" />
-              <line x1="7" y1="2" x2="7" y2="22" />
-              <line x1="17" y1="2" x2="17" y2="22" />
-              <line x1="2" y1="12" x2="22" y2="12" />
-              <line x1="2" y1="7" x2="7" y2="7" />
-              <line x1="2" y1="17" x2="7" y2="17" />
-              <line x1="17" y1="17" x2="22" y2="17" />
-              <line x1="17" y1="7" x2="22" y2="7" />
-            </svg>
-            <div class="project-card__links">
-              <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor">
-                <path
-                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
-              </svg>
-            </div>
-          </div>
+          <div class="project-card__number">02</div>
           <h3 class="project-card__title">Movie Explorer</h3>
           <p class="project-card__description">A movie database lookup tool built in C++. I focused heavily on optimizing the search and filtering algorithms to make querying large datasets as fast as possible.</p>
           <div class="project-card__tags">
@@ -236,19 +196,7 @@
         <!-- Bank Transaction Processor -->
         <a href="https://github.com/kaustubhsri072/Bank-Transaction-Processor" target="_blank" rel="noopener noreferrer"
           class="project-card reveal" style="text-decoration:none; color:inherit;">
-          <div class="project-card__header">
-            <svg class="project-card__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="12" y1="1" x2="12" y2="23" />
-              <path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6" />
-            </svg>
-            <div class="project-card__links">
-              <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor">
-                <path
-                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
-              </svg>
-            </div>
-          </div>
+          <div class="project-card__number">03</div>
           <h3 class="project-card__title">Bank Transaction Processor</h3>
           <p class="project-card__description">A C++ system I built from scratch to simulate a banking environment. It handles concurrent transactions and account state changes safely without data loss.</p>
           <div class="project-card__tags">
@@ -261,22 +209,7 @@
         <!-- CSS382 AI Project -->
         <a href="https://github.com/kaustubhsri072/CSS382-shortAIproject" target="_blank" rel="noopener noreferrer"
           class="project-card reveal" style="text-decoration:none; color:inherit;">
-          <div class="project-card__header">
-            <svg class="project-card__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M12 2a4 4 0 014 4c0 1.95-1.4 3.58-3.25 3.93" />
-              <path d="M8 6a4 4 0 018 0" />
-              <path d="M12 18v4" />
-              <path d="M8 22h8" />
-              <rect x="5" y="10" width="14" height="8" rx="2" />
-            </svg>
-            <div class="project-card__links">
-              <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor">
-                <path
-                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
-              </svg>
-            </div>
-          </div>
+          <div class="project-card__number">04</div>
           <h3 class="project-card__title">AI Short Project</h3>
           <p class="project-card__description">My final project for CSS 382, where I built a Python script to train and test a basic machine learning model without relying on heavy external ML libraries.</p>
           <div class="project-card__tags">
@@ -289,20 +222,7 @@
         <!-- Choose Your Own Adventure -->
         <a href="https://github.com/kaustubhsri072/choose-your-own-adventure" target="_blank" rel="noopener noreferrer"
           class="project-card reveal" style="text-decoration:none; color:inherit;">
-          <div class="project-card__header">
-            <svg class="project-card__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="10" />
-              <path d="M12 16v-4" />
-              <path d="M12 8h.01" />
-            </svg>
-            <div class="project-card__links">
-              <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor">
-                <path
-                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
-              </svg>
-            </div>
-          </div>
+          <div class="project-card__number">05</div>
           <h3 class="project-card__title">Choose Your Own Adventure</h3>
           <p class="project-card__description">An interactive text-based adventure game built in Python. Players
             navigate branching storylines through decision-making, with multiple endings and paths to explore.</p>
@@ -322,7 +242,7 @@
   <section id="experience">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-label">03 — Experience</span>
+        <span class="section-label">Experience</span>
         <h2 class="section-title h1">Where I've been</h2>
         <div class="section-divider"></div>
       </div>
@@ -348,7 +268,7 @@
   <section id="contact" class="contact">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-label">04 — Contact</span>
+        <span class="section-label">Contact</span>
         <h2 class="section-title h1">Get in touch</h2>
         <div class="section-divider" style="margin-left: auto; margin-right: auto;"></div>
       </div>
