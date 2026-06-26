@@ -35,6 +35,15 @@
 
   function updateActiveLink() {
     const scrollY = window.scrollY + 120;
+    const isAtBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 50;
+
+    if (isAtBottom) {
+      navLinks.forEach((link) => link.classList.remove('active'));
+      if (navLinks.length > 0) {
+        navLinks[navLinks.length - 1].classList.add('active');
+      }
+      return;
+    }
 
     sections.forEach((section) => {
       const sectionTop = section.offsetTop;
